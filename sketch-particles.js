@@ -16,7 +16,7 @@ Particle.prototype = {
     this.wander = 0.15;
     this.theta = random(TWO_PI);
     this.drag = 0.92;
-    this.color = '#EEEEEE';
+    this.color = '#FFFFFF';
 
     this.x = x || 0.0;
     this.y = y || 0.0;
@@ -62,8 +62,8 @@ var particles = [];
 var pool = [];
 
 var COLOURS = [
-  '#E3F2FD', '#BBDEFB', '#90CAF9', '#64B5F6', '#42A5F5', '#2196F3', '#1E88E5', '#1976D2', '#1565C0', '#0D47A1', // Blue 50->900
-  '#FFF8E1', '#FFECB3', '#FFE082', '#FFD54F', '#FFCA28', '#FFC107', '#FFB300', '#FFA000', '#FF8F00', '#FF6F00' // Amber 50->900
+  '#E3F2FD', '#BBDEFB', '#90CAF9', '#64B5F6', '#F7777A', '#6F91AD', '#285A84', '#1976D2', '#1565C0', '#0D47A1', // Blue 50->900
+  '#FFF8E1', '#FFECB3', '#FFE082', '#FFD54F', '#FFCA28', '#F7777A', '#FFB300', '#FFA000', '#FF8F00', '#FF6F00' // Amber 50->900
 ];
 
 var CONTAINER = document.getElementById('sketch-particles');
